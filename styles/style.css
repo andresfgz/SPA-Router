@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+body {
+    font-family: 'Play', sans-serif;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  html {
+      font-size: 62.5%;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3.0rem;
+    margin-top: 2.0rem;
+  }
+  .menu--item {
+    cursor: pointer;
+  }
+  .menu--item:hover {
+    color: rgb(235, 240, 235);
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 4.5rem;
+      padding-top: 30px;
+      color: rgb(32, 43, 53);
+  }
+
+  .home-div-descr {
+      margin-left: 200px;
+      margin-right: 200px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      row-gap: 40px;
+      text-align: center;
+      font-size: 3.7rem;
+      line-height: 5.2rem;
+      margin-top: 100px;
+      color: rgb(37, 44, 51);
+      
+  }
+
+  .home-div-descr p {
+      font-size: 2.0rem;
+  }
+
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid white;
+      background-color: #ffffff;
+      border-radius: 15px;
+      height: 405px;
+
+  }
+
+  h2 {
+      margin-top: 10px;
+  }
+
+  a {
+      text-decoration: none;
+      color: rgb(37, 44, 51);
+      margin-bottom: -10px;
+  }
+
+  .container:hover {
+    transform:scale(1.03);
+    box-shadow: 0px 5px 13px 1px rgba(0,0,0,0.75);
+
+  }
+
+  img {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+
+  .git {
+      color: rgb(126, 124, 228);
+  }
